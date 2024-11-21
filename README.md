@@ -83,4 +83,4 @@ This project is inspired by the curiosity and absurdity of everyday life. It com
 ## 👨‍💻 Author
 
 - **Your Name**  
-  GitHub: [@your-username](https://github.com/0day-Yash)
+  GitHub: [@0day-Yash](https://github.com/0day-Yash)
