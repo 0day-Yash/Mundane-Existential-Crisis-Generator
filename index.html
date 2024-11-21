@@ -1,23 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+  <!-- Metadata Section -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dive into a world of whimsical absurdities with the Mundane Existential Crisis Generator.">
+  <meta name="author" content="Your Name">
+  <meta name="keywords" content="existential, generator, absurd questions, creativity, mundane">
+  
+  <!-- Title of the Web App -->
   <title>Mundane Existential Crisis Generator</title>
+  
+  <!-- Stylesheet Linking -->
   <link rel="stylesheet" href="styles.css">
+
+  <!-- Favicon for Browser Tab -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- Font Imports -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
+  <!-- Main Application Wrapper -->
   <div class="container">
-    <h1>Mundane Existential Crisis Generator</h1>
-    <div id="question-box">
-      <p id="question">Click the button to generate a question!</p>
-    </div>
-    <button id="generate-btn">Generate Question</button>
-    <div id="history">
-      <h2>History</h2>
-      <ul id="history-list"></ul>
-    </div>
+
+    <!-- Application Title -->
+    <header>
+      <h1 class="main-title">Mundane Existential Crisis Generator</h1>
+      <p class="subtitle">
+        Delve into the absurd, the philosophical, and the outright pointless. Every click takes you deeper.
+      </p>
+    </header>
+
+    <!-- Question Box Section -->
+    <section class="question-section">
+      <div id="question-box" class="question-box">
+        <p id="question" class="question">
+          Click the button to generate a question!
+        </p>
+      </div>
+    </section>
+
+    <!-- Button Section -->
+    <section class="action-section">
+      <button id="generate-btn" class="generate-btn">
+        Generate Question
+      </button>
+    </section>
+
+    <!-- History Section -->
+    <section id="history" class="history-section">
+      <h2 class="history-title">Question History</h2>
+      <p class="history-description">
+        Every question you've generated is stored here. Relive the absurdity.
+      </p>
+      <ul id="history-list" class="history-list">
+        <!-- Generated History Items Will Appear Here -->
+      </ul>
+    </section>
   </div>
+
+  <!-- Footer -->
+  <footer>
+    <p class="footer-text">
+      Built with <span class="heart">♥</span> and a sprinkle of absurdity.
+    </p>
+    <p class="footer-credits">
+      Created by <a href="#" class="footer-link">Your Name</a>.
+    </p>
+  </footer>
+
+  <!-- JavaScript Linking -->
   <script src="script.js"></script>
 </body>
+
 </html>
