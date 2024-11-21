@@ -19,7 +19,7 @@ Welcome to the **Mundane Existential Crisis Generator**, a simple web app design
 
 ## 🚀 Live Demo
 
-Check out the live version of the app on [Vercel](https://vercel.com/)!
+Check out the live version of the app on [Vercel](https://mundane-existential-crisis-generator.vercel.app/)!
 
 ---
 
@@ -38,7 +38,7 @@ Check out the live version of the app on [Vercel](https://vercel.com/)!
 
 1. **Clone the Repository**  
    ```bash
-   git clone https://github.com/your-username/mundane-existential-crisis-generator.git
+   git clone https://github.com/0day-Yash/Mundane-Existential-Crisis-Generator.git
    ```
 
 2. **Open the Project**  
